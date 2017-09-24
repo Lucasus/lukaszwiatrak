@@ -23,3 +23,11 @@ npm install -g firebase-tools
 ```
 
 Online: project created https://console.firebase.google.com/project/blog-lukaszwiatrak/hosting?pli=1
+
+
+**To publish new version**:
+```
+$env:JEKYLL_ENV="production"; jekyll build --destination firebase/public
+cd firebase
+firebase deploy
+```

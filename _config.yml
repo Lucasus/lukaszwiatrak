@@ -20,10 +20,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lukaszwiatrak
 github_username:  Lucasus
+google_analytics:  UA-5082263-10
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
