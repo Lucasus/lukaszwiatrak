@@ -1,4 +1,4 @@
-_site
+src/_site
 .sass-cache
-.jekyll-metadata
-firebase/public/
+src/.jekyll-metadata
+public/

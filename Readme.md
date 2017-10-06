@@ -24,10 +24,13 @@ npm install -g firebase-tools
 
 Online: project created https://console.firebase.google.com/project/blog-lukaszwiatrak/hosting?pli=1
 
+**To develop locally with watch capability**
+bundle exec jekyll serve
+
 
 **To publish new version**:
 ```
-$env:JEKYLL_ENV="production"; jekyll build --destination firebase/public
-cd firebase
+rd -r public
+$env:JEKYLL_ENV="production"; jekyll build --source src --destination public
 firebase deploy
 ```
