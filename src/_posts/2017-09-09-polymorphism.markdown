@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fundamental concepts: polymorphism"
+title:  "Polymorphism"
 date:   2017-09-09 23:07:00 +0200
 categories: fundamentals
 ---
@@ -15,9 +15,7 @@ Languages that provide this ability are called _polymorphic languages_. Function
 
 _Type_ in definitions above is defined as a set of values. Saying that _value x has a type X_ means that value x belongs to the type X.
 
-Types in programming languages also often have corresponding interfaces that describe what operations type provides.
-
-If a variable or value is polymorphic (can have different types), then those types should share a common structure (interface), so the code that operates on it is identical regardless of what is the actual type of this variable or value. 
+Types in programming languages also often have corresponding interfaces that describe what operations particular type provides. If a variable or value is polymorphic (can have different types), then those types should share a common structure (interface), so the code that operates on it is identical regardless of what is the actual type of this variable or value. 
 
 **Taxonomy**
 
