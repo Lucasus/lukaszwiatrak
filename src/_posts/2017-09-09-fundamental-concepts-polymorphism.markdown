@@ -9,14 +9,15 @@ categories: fundamentals
 
 In this blog post I'll explain what _polymorphism_ is. Let's start with a definition:
 
-> Polymorphism is the provision of the same interface to entities of different types. 
+> Polymorphism is an ability to have a variable or value that can have many different types. 
 
-In other words, we can have entity that has many different types. The code that interacts with it doesn't need to know what is an actual type of the entity. It only needs to know (and operates on) common interface of those types.
+Languages that provide this ability are called _polymorphic languages_. Function which operands (values of its parameters) can have many different types is called _polymorphic function_. 
 
+_Type_ in definitions above is defined as a set of values. Saying that _value x has a type X_ means that value x belongs to the type X.
 
-_Entity_ in definition above means a variable, value or function. _Interface_ is a set of operations that entity provides (or a single signature if an entity is a function)
+Types in programming languages also often have corresponding interfaces that describe what operations type provides.
 
-_Type_ is defined here as a set of values
+If a variable or value is polymorphic (can have different types), then those types should share a common structure (interface), so the code that operates on it is identical regardless of what is the actual type of this variable or value. 
 
 **Taxonomy**
 
